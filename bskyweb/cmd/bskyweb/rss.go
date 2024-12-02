@@ -150,6 +150,7 @@ func (srv *Server) WebProfileRSS(c echo.Context) error {
 		Version:     "2.0",
 		Description: desc,
 		Title:       title,
+		Link:        profileLink,
 		Image:       image,
 		Item:        posts,
 	}
